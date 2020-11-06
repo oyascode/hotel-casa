@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/menu.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <title>Casa</title>
+</head>
+<body>
+    <!--header elements-->
+    <header class="header">
+        <div class="top-nav">
+            <a href="#home" class="logo"> 
+                <img src="images/top-logo.svg" alt="">
+            </a>  
+            <input type="checkbox" id="menu-btn" class="menu-btn"> 
+            <label for="menu-btn" class="menu-icon"><span class="nav-icon"></span></label>
+            <nav class="menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="facility.html" class="nav__link">Facilities</a></li>
+                    <li class="nav__item active"><a href="" class="nav__link">Rooms & Rates</a></li>
+                    <li class="nav__item"><a href="contact.html" class="nav__link">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+        <!--first section-->  
+        <section class="facility section1">
+            <div class="facility content">
+                <span class="rectangle">
+                    <img src="images/long-rect.svg" alt="">
+                </span>
+                <h1>Suites and Rooms Just for You</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                <div class="search-container">
+                    <div class="search"> 
+                        <input type="text" name="search" id="search" placeholder="search for locations, rooms, suites...">
+                    </div>
+                    <div class="check-in">
+                       <span>Check In</span>
+                       <svg fill="none" viewBox="0 0 22 22">
+                        <path d="M2.749 5.5v12.833c0 1.011.822 1.834 1.833 1.834h12.834a1.835 1.835 0 001.833-1.834V5.5a1.835 1.835 0 00-1.833-1.833h-1.834V1.833H13.75v1.834h-5.5V1.833H6.416v1.834H4.582A1.835 1.835 0 002.75 5.5zm14.668 12.833H4.582v-11h12.834l.002 11z" fill="#50536B"/>
+                      </svg>
+                    </div>
+                    <div class="check-out">
+                       <span>Check Out</span>
+                       <svg fill="none" viewBox="0 0 22 22">
+                        <path d="M2.749 5.5v12.833c0 1.011.822 1.834 1.833 1.834h12.834a1.835 1.835 0 001.833-1.834V5.5a1.835 1.835 0 00-1.833-1.833h-1.834V1.833H13.75v1.834h-5.5V1.833H6.416v1.834H4.582A1.835 1.835 0 002.75 5.5zm14.668 12.833H4.582v-11h12.834l.002 11z" fill="#50536B"/>
+                      </svg>
+                    </div>
+                    <a href="#" class="btn">Search</a>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <main>
+        <!--second section--> 
+        <section class=" rooms-rates section2">
+            <div class="content">
+                <span class="rectangle">
+                    <img src="images/long-rect.svg" alt="">
+                    <span>Trending</span>
+                </span>
+            </div>
+            <!-- Cards-->         
+            <ul class="suites">
+                <li>
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="images/Rectangle49.png" alt="club suite">
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-header">Club Suite</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
+                            <div class="fwd-arrow">
+                                <img src="images/fwd-arrow.png" alt=" forward arrow">
+                            </div>
+                            <div class="offer">
+                                <img src="images/offer.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="images/Rectangle50.png" alt="club suite">
+                        </div>
+                        <div class="card-content">
+                            <h3>Beach View</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et doloret</p>
+                            <div class="fwd-arrow">
+                                <img src="images/fwd-arrow.png" alt=" forward arrow">
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="images/Rectangle51.png" alt="club suite">
+                        </div>
+                        <div class="card-content">
+                            <h3>Family Size Large Suite</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
+                            <div class="fwd-arrow">
+                                <img src="images/fwd-arrow.png" alt=" forward arrow">
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <!--third section--> 
+        <section class=" rooms-rates section3">
+            <!-- Cards-->         
+            <ul class="suites">
+                <li class="card">
+                    <img class="card-img" src="images/rooms-club.png" alt="club suite">
+                    <div class="card-content">
+                        <h3 class="card-header">Club Suite</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
+                        <img  class="fwd-arrow" src="images/fwd-arrow.png" alt=" forward arrow">
+                    </div>
+                </li>
+                <li class="card">
+                    <img class="card-img" src="images/rooms-beach.png" alt="club suite">
+                    <div class="card-content">
+                        <h3>Beach View</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et doloret</p>
+                        <img class="fwd-arrow" src="images/fwd-arrow.png" alt=" forward arrow">
+                    </div>
+                </li>
+                <li class="card">
+                    <img class="card-img" src="images/Rectangle51.png" alt="club suite">
+                    <div class="card-content">
+                        <h3>Family Size Large Suite</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
+                        <img class="fwd-arrow" src="images/fwd-arrow.png" alt=" forward arrow">
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <!--fourth section-->  
+        <section class=" rooms-rates section4">
+            <div class="content">
+                <span class="rectangle">
+                    <img src="images/long-rect.svg" alt="">
+                    <span>Hot Deal for You</span>
+                </span>
+            </div>
+            <!-- Cards-->         
+            <ul class="suites">
+                <li class="card">
+                    <img class="card-img" src="images/Rectangle49.png" alt="club suite">
+                    <div class="card-content">
+                        <h3 class="card-header">Club Suite</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
+                        <div >
+                        <img class="fwd-arrow" src="images/fwd-arrow.png" alt=" forward arrow">
+                    </div>
+                    <div class="offer">
+                        <img src="images/offer.svg" alt="">
+                    </div>
+                </li>
+                <li class="card">
+                    <img class="card-img" src="images/Rectangle50.png" alt="club suite">
+                    <div class="card-content">
+                        <h3>Beach View</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et doloret</p>
+                        <img  class="fwd-arrow" src="images/fwd-arrow.png" alt=" forward arrow">
+                    </div>
+                    <div class="offer">
+                        <img src="images/offer.svg" alt="">
+                    </div>
+                </li>
+                <li class="card">
+                    <img  class="card-img" src="images/Rectangle51.png" alt="club suite">
+                    <div class="card-content">
+                        <h3>Family Size Large Suite</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
+                        <img  class="fwd-arrow" src="images/fwd-arrow.png" alt=" forward arrow">
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <!--fifth section--> 
+        <section class=" rooms-rates section5">
+            <!-- Cards-->         
+            <ul class="suites">
+                <li class="card">
+                    <img class="card-img" src="images/rooms-club.png" alt="club suite">
+                    <div class="card-content">
+                        <h3 class="card-header">Club Suite</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
+                        <img class="fwd-arrow" src="images/fwd-arrow.png" alt=" forward arrow">
+                    </div>
+                </li>
+                <li class="card">
+                    <img  class="card-img" src="images/rooms-beach.png" alt="club suite">
+                    <div class="card-content">
+                        <h3>Beach View</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et doloret</p>
+                        <img class="fwd-arrow" src="images/fwd-arrow.png" alt=" forward arrow">
+                    </div>
+                    <div class="offer">
+                        <img src="images/offer.svg" alt="">
+                    </div>
+                </li>
+                <li class="card">
+                    <img class="card-img" src="images/Rectangle51.png" alt="club suite">
+                    <div class="card-content">
+                        <h3>Family Size Large Suite</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
+                        <img class="fwd-arrow" src="images/fwd-arrow.png" alt=" forward arrow">
+                    </div>
+                </li>
+            </ul>
+        </section>
+    </main>
+        <!--footer section-->
+    <footer>
+        <div class="social">
+
+            <!--logo-->
+            <div class="col-1">
+                <a class="footer-logo">
+                    <img src="images/bottom-logo.svg" alt="footer logo">
+                </a>
+    
+                <!--social media accounts-->
+                <ul class="social-list">
+                    <li class="social-items"><a href="" class="social-link">
+                        <img src="images/twitter.svg" alt="twitter icon">
+                    </a></li>
+                    <li class="social-items"><a href="" class="social-link">
+                        <img src="images/linkedin.svg" alt="linkedIn icon">
+                    </a></li>
+                    <li class="social-items"><a href="" class="social-link">
+                        <img src="images/fbook.svg" alt="facebook icon">
+                    </a></li>
+                </ul>
+    
+                <!--email details-->
+                <form class="form-wrap" action="#">
+                    <label for="email">Subscribe to our Newsletter</label><br><br>
+                    <input class="email" type="email" name="email" id="email" placeholder="Email Address">
+                    <input class="send" type="button" value="Send">
+                </form>
+            </div>
+
+            <!--footer navigations-->
+            <div class="col-2">
+                <ul class="footer__nav">
+                    <li class="footer__item"><a href="" class="footer__link"><strong>About Us</strong></a></li>
+                    <li class="footer__item"><a href="" class="footer__link">Terms & Conditions</a></li>
+                    <li class="footer__item"><a href="" class="footer__link">Privacy Policy</a></li>
+                    <li class="footer__item"><a href="" class="footer__link">About Us</a></li>
+                    <li class="footer__item"><a href="" class="footer__link">Locations</a></li>
+                </ul>
+            </div>
+            <div class="col-3">
+                
+                <ul class="footer__nav">
+                    <li class="suite__list"><a href="" class="suite__link"><strong>Suites</strong></a></li>
+                    <li class="suite__list"><a href="" class="suite__link">London Standard</a></li>
+                    <li class="suite__list"><a href="" class="suite__link">Beach View</a></li>
+                    <li class="suite__list"><a href="" class="suite__link">Club Suite</a></li>
+                    <li class="suite__list"><a href="" class="suite__link">Ogun Land</a></li>
+                    <li class="suite__list"><a href="" class="suite__link">Marvellous Crimb</a></li>
+                </ul>
+            </div>
+            <div class="col-4">
+                <ul class="footer__nav">
+            
+                    <li class="suite__list"><a href="" class="suite__link">London Standard</a></li>
+                    <li class="suite__list"><a href="" class="suite__link">Beach View</a></li>
+                    <li class="suite__list"><a href="" class="suite__link">Club Suite</a></li>
+                    <li class="suite__list"><a href="" class="suite__link">Ogun Land</a></li>
+                    <li class="suite__list"><a href="" class="suite__link">Marvellous Crimb</a></li>
+                </ul>
+            </div>
+            
+        </div>
+    </footer>
+    
+</body>
+</html>
+
